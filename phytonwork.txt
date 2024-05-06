@@ -1,0 +1,35 @@
+x = [1, 2, 3, 4, 5]# list declaration
+y = list("eniola")# list declaration
+
+print(x[1 + 2]) # output  = 5
+print(y) # output = ["e", "n", "i", "o", "l", "a"]
+
+
+x = [1, 2, 3, 4, 5]# list declaration
+y = list("[1, 2 ,3]")# list declaration
+z = []
+z.extend(x)
+z.extend(y)
+print(z) # output = [1, 2, 3, 4, 5, 1, 2, 3]
+
+
+z.append(x)
+z.append(y)
+print (z) # output = [[1, 2, 3, 4, 5], [1, 2, 3]]
+print(len(x)) #output = 5
+
+print(1 not in x) # output = false
+print(1 in x) # output = true
+
+print(id(x)) # output memory address for x
+
+x = [1, 2.0, True, "ore", [2, 3]] 
+y = list([1, 2, 3])
+print(x[:-1]) # output = reversed
+
+
+y = [1, 2, 3]
+
+a, b, c = y
+print(a, b, c)# unpacking a list 
+#output = 1,2 ,3
